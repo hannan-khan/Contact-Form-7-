@@ -1,0 +1,1294 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+     button.btn.btn-info {
+    display: block;
+    margin-bottom: 20px;
+}
+.test {
+    background: red;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+  </style>
+
+<div id="form-5">
+  <div class="group-t1">
+     <h3 class="test" data-toggle="collapse" data-target="#contact">Contact Information</h3>
+    <div class="images" data-toggle="collapse" data-target="#contact">
+      <div class="imgcont"><img src="http://visualscope.org/development/northshore/wp-content/uploads/2017/01/contact.png"/></div>
+    </div>
+             
+<div class="icon collapsed" data-toggle="collapse" data-target="#contact">
+        <div class="hididng"><i class="fa fa-angle-down" aria-hidden="true"></i></div>
+ </div> 
+<div id="contact" class="collapse in">
+    <div class="interior">
+      <div class="field"><span class="id">
+        <label for="name-first">First Name<span class="required">*</span></label>
+        </span><span class="input"> [text* name-first id:name-first class:extraLarge] </span>
+        <div class="clear"></div>
+      </div>
+      <div class="field"><span class="id">
+        <label for="name-last">Last Name<span class="required">*</span></label>
+        </span><span class="input"> [text* name-last id:name-last class:extraLarge] </span>
+        <div class="clear"></div>
+      </div>
+      <div class="field"><span class="id">
+        <label for="email">Email Address<span class="required">*</span></label>
+        </span><span class="input"> [email* email id:email class:extraLarge] </span>
+        <div class="clear"></div>
+      </div>
+      <div class="field"><span class="id">
+        <label for="phone-home">Home Phone No.<span class="required">*</span></label>
+        </span><span class="input"> [text* homephone1 class:home-phone-field class:val-phone placeholder "000-000-0000"]</span>
+        <div class="clear"></div>
+      </div>
+      <div class="field"><span class="id">
+        <label for="phone-work">Work Phone No.</label>
+        </span><span class="input">  [text* workphone1 class:home-phone-field class:val-phone placeholder "000-000-0000"] </span>
+        <div class="clear"></div>
+      </div>
+     <!-- <div class="field"><span class="id">
+        <label for="contact-method">Method of Contact<span class="required">*</span></label>
+        </span><span class="input"> [select contact-method id:contact-method "Phone" "Email"] </span>
+        <div class="clear"></div>
+      </div>-->
+      <div class="field"><span class="id">
+        <label for="move-date">Estimated Move Date<span class="required">*</span></label>
+        </span><span class="input"> [date* move-date class:custom-input-style date-format:mm/dd/yy min-date:0] </span>
+        <div class="clear"></div>
+      </div>
+      <div class="field"><span class="id">
+        <label for="Hear about us">How did you hear about us?</label>
+        </span><span class="input"> [select Hear-about-us id:Hear-about-us include_blank "Google" "Yelp.com" "Word of Mouth" "Better Business Bureau" "Saw Truck" "Repeat Customer" "Angie's List" "Print Ad" "Other"] </span>
+        <div class="clear"></div>
+      </div>
+    </div>
+  </div>
+ </div>
+  <div class="group-t0">
+    <div class="interior">
+      <div class="group-t1 group-l">
+              <h3 class="test" data-toggle="collapse" data-target="#From">Moving From</h3>
+        <div class="images out" data-toggle="collapse" data-target="#From">
+          <div class="imgcont moving"><img src="http://visualscope.org/development/northshore/wp-content/uploads/2017/01/From-to.png"/></div>
+        </div>
+<div class="icon collapsed" data-toggle="collapse" data-target="#From">
+        <div class="hididng"><i class="fa fa-angle-down" aria-hidden="true"></i></div>
+ </div> 
+<div id="From" class="collapse in">
+        <div class="interior">
+          <div class="field"><span class="id">
+            <label for="fr-address">Address<span class="required">*</span></label>
+            </span><span class="input"> [text* fr-address id:fr-address class:large] </span>
+            <div class="clear"></div>
+          </div>
+          <div class="field"><span class="id">
+            <label for="fr-city">City<span class="required">*</span></label>
+            </span><span class="input"> [text* fr-city id:fr-city class:large] </span>
+            <div class="clear"></div>
+          </div>
+          <div class="field"><span class="id">
+            <label for="fr-state">State<span class="required">*</span></label>
+            </span><span class="input"> [select* fr-state id:fr-state include_blank "AK" "AL" "AR" "AZ" "CA" "CO" "CT" "DC" "DE" "FL" "GA" "HI" "IA" "ID" "IL" "IN" "KS" "KY" "LA" "MA" "MD" "ME" "MI" "MN" "MO" "MS" "MT" "NC" "ND" "NE" "NH" "NJ" "NM" "NV" "NY" "OH" "OK" "OR" "PA" "RI" "SC" "SD" "TN" "TX" "UT" "VA" "VT" "WA" "WI" "WV" "WY"] </span>
+            <div class="clear"></div>
+          </div>
+          <div class="field"><span class="id">
+            <label for="fr-zip">ZIP Code<span class="required">*</span></label>
+            </span><span class="input"> [text* fr-zip id:fr-zip class:small] </span>
+            <div class="clear"></div>
+          </div>
+          <div class="field"><span class="id">
+            <label for="fr-loctype">Location Type<span class="required">*</span></label>
+            </span><span class="input"> [select* fr-loctype id:fr-loctype include_blank "Apartment" "House" "Townhouse" "Storage"] </span>
+            <div class="clear"></div>
+          </div>
+          <div class="field"><span class="id">
+            <label for="fr-elev-p">Has Elevators<span class="required">*</span></label>
+            </span><span class="input"> [radio fr-elev-p class:radio "Yes" "No"] </span>
+            <div class="clear"></div>
+          </div>
+          <div class="field"><span class="id">
+            <label for="fr-elev-f">What floor are you on?*</label>
+            </span><span class="input"> [text* fr-elev-f id:fr-elev-f class:verySmall] </span>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+</div>
+      <div class="group-t1 group-r">
+      <h3 class="test" data-toggle="collapse" data-target="#To">Moving To</h3>
+        <div class="images out" data-toggle="collapse" data-target="#To">
+          <div class="imgcont moving"><img src="http://visualscope.org/development/northshore/wp-content/uploads/2017/01/From-to.png"/></div>
+        </div>
+<div class="icon collapsed" data-toggle="collapse" data-target="#To">
+        <div class="hididng"><i class="fa fa-angle-down" aria-hidden="true"></i></div>
+ </div> 
+<div id="To" class="collapse in">
+        <div class="interior">
+          <div class="field"><span class="id">
+            <label for="to-address">Address<span class="required">*</span></label>
+            </span><span class="input"> [text* to-address id:to-address class:large] </span>
+            <div class="clear"></div>
+          </div>
+          <div class="field"><span class="id">
+            <label for="to-city">City<span class="required">*</span></label>
+            </span><span class="input"> [text* to-city id:to-city class:large] </span>
+            <div class="clear"></div>
+          </div>
+          <div class="field"><span class="id">
+            <label for="to-state">State<span class="required">*</span></label>
+            </span><span class="input"> [select* to-state id:to-state include_blank "AK" "AL" "AR" "AZ" "CA" "CO" "CT" "DC" "DE" "FL" "GA" "HI" "IA" "ID" "IL" "IN" "KS" "KY" "LA" "MA" "MD" "ME" "MI" "MN" "MO" "MS" "MT" "NC" "ND" "NE" "NH" "NJ" "NM" "NV" "NY" "OH" "OK" "OR" "PA" "RI" "SC" "SD" "TN" "TX" "UT" "VA" "VT" "WA" "WI" "WV" "WY"] </span>
+            <div class="clear"></div>
+          </div>
+          <div class="field"><span class="id">
+            <label for="to-zip">ZIP Code<span class="required">*</span></label>
+            </span><span class="input"> [text* to-zip id:to-zip class:small] </span>
+            <div class="clear"></div>
+          </div>
+          <div class="field"><span class="id">
+            <label for="to-loctype">Location Type<span class="required">*</span></label>
+            </span><span class="input"> [select* to-loctype id:to-loctype include_blank "Apartment" "House" "Townhouse" "Storage"] </span>
+            <div class="clear"></div>
+          </div>
+          <div class="field"><span class="id">
+            <label for="to-elev-p">Has Elevators<span class="required">*</span></label>
+            </span><span class="input"> [radio to-elev-p class:radio "Yes" "No"] </span>
+            <div class="clear"></div>
+          </div>
+          <div class="field"><span class="id">
+            <label for="to-elev-f">What floor are you on?*</label>
+            </span><span class="input"> [text* to-elev-f id:to-elev-f class:verySmall] </span>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+      <div class="group-t3 group-c clear">
+        <div class="interior"></div>
+      </div>
+    </div>
+  </div>
+ </div>
+  <div class="group-t1 rooms">
+<div class="box" data-toggle="collapse" data-target="#Living">
+    <h3 class="test" data-toggle="collapse" data-target="#Living">Living Room</h3>
+    <div class="images" data-toggle="collapse" data-target="#Living">
+      <div class="imgcont"><img src="http://visualscope.org/development/northshore/wp-content/uploads/2017/01/living-rooms.png"/></div>
+    </div>
+<div class="icon" data-toggle="collapse" data-target="#Living">
+        <div class="hididng"><i class="fa fa-angle-down" aria-hidden="true"></i></div>
+ </div>
+</div>
+<div id="Living" class="collapse in">
+    <div class="interior">
+      <div class="cols col-1">
+        <div class="field"><span class="input"> [number lv-bar-portable id:lv-bar-portable class:verySmall] </span><span class="id">
+          <label for="lv-bar-portable">Bar, Portable</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number lv-bookcase-regular id:lv-bookcase-regular class:verySmall] </span><span class="id">
+          <label for="lv-bookcase-regular">Bookcase, Regular</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number lv-bookcase-large id:lv-bookcase-large class:verySmall] </span><span class="id">
+          <label for="lv-bookcase-large">Bookcase, Large</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number lv-chair-arm id:lv-chair-arm class:verySmall] </span><span class="id">
+          <label for="lv-chair-arm">Chair, Arm</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        
+        <div class="field"><span class="input"> [number lv-chair-overstuffed id:lv-chair-overstuffed class:verySmall] </span><span class="id">
+          <label for="lv-chair-overstuffed">Chair, Overstuffed</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number lv-chair-papason id:lv-chair-papason class:verySmall] </span><span class="id">
+          <label for="lv-chair-papason">Chair, Papason</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number lv-chair-recliner id:lv-chair-recliner class:verySmall] </span><span class="id">
+          <label for="lv-chair-recliner">Chair, Recliner</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number lv-chair-rocker id:lv-chair-rocker class:verySmall] </span><span class="id">
+          <label for="lv-chair-rocker">Chair, Rocker</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number lv-chaise-lounge id:lv-chaise-lounge class:verySmall] </span><span class="id">
+          <label for="lv-chaise-lounge">Chaise Lounge</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        
+      </div>
+      <div class="cols col-2">
+         <div class="field"><span class="input"> [number lv-chest-trunk id:lv-chest-trunk class:verySmall] </span><span class="id">
+          <label for="lv-chest-trunk">Chest/Trunk</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number lv-credenza id:lv-credenza class:verySmall] </span><span class="id">
+          <label for="lv-credenza">Credenza</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number lv-curio-cabinet id:lv-curio-cabinet class:verySmall] </span><span class="id">
+          <label for="lv-curio-cabinet">Curio Cabinet</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number lv-day-bed id:lv-day-bed class:verySmall] </span><span class="id">
+          <label for="lv-day-bed">Day Bed </label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        
+        <div class="field"><span class="input"> [number lv-ent-cent-regular id:lv-ent-cent-regular class:verySmall] </span><span class="id">
+          <label for="lv-ent-cent-regular">Entertainment Center, Regular</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        
+        <div class="field"><span class="input"> [number lv-futon id:lv-futon class:verySmall] </span><span class="id">
+          <label for="lv-futon">Futon</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number lv-gf-clock id:lv-gf-clock class:verySmall] </span><span class="id">
+          <label for="lv-gf-clock">Grandfather Clock</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number lv-media-rack-small id:lv-media-rack-small class:verySmall] </span><span class="id">
+          <label for="lv-media-rack-small">Media Rack, Small</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number lv-media-rack-large id:lv-media-rack-large class:verySmall] </span><span class="id">
+          <label for="lv-media-rack-large">Media Rack, Large</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+      </div>
+      <div class="cols col-3">
+        
+        <div class="field"><span class="input"> [number lv-ottoman id:lv-ottoman class:verySmall] </span><span class="id">
+          <label for="lv-ottoman">Ottoman</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number lv-piano-bench id:lv-piano-bench class:verySmall] </span><span class="id">
+          <label for="lv-piano-bench">Piano Bench</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number lv-piano-console id:lv-piano-console class:verySmall] </span><span class="id">
+          <label for="lv-piano-console">Piano, Console</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number lv-piano-upright id:lv-piano-upright class:verySmall] </span><span class="id">
+          <label for="lv-piano-upright">Piano, Upright</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number lv-piano-baby-grand id:lv-piano-baby-grand class:verySmall] </span><span class="id">
+          <label for="lv-piano-baby-grand">Piano, Baby Grand</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number lv-sideboard id:lv-sideboard class:verySmall] </span><span class="id">
+          <label for="lv-sideboard">Sideboard</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number lv-sofa-loveseat id:lv-sofa-loveseat class:verySmall] </span><span class="id">
+          <label for="lv-sofa-loveseat">Sofa, Loveseat</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number lv-sofa-3cush id:lv-sofa-3cush class:verySmall] </span><span class="id">
+          <label for="lv-sofa-3cush">Sofa, 3-Cushion</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        
+       <div class="field"><span class="input"> [number lv-sofa-4cush id:lv-sofa-4cush class:verySmall] </span><span class="id">
+          <label for="lv-sofa-4cush">Sofa, 4-Cushion</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+      </div>
+      <div class="cols col-4">
+         
+        <div class="field"><span class="input"> [number lv-section id:lv-section class:verySmall] </span><span class="id">
+          <label for="lv-section">Sofa, Per Section Piece</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number lv-speakers id:lv-speakers class:verySmall] </span><span class="id">
+          <label for="lv-speakers">Speakers</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number lv-stereo-console id:lv-stereo-console class:verySmall] </span><span class="id">
+          <label for="lv-stereo-console">Stereo Console</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number lv-table-coffee id:lv-table-coffee class:verySmall] </span><span class="id">
+          <label for="lv-table-coffee">Table, Coffee</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number lv-table-end id:lv-table-end class:verySmall] </span><span class="id">
+          <label for="lv-table-end">Table, End</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number lv-occasional id:lv-occasional class:verySmall] </span><span class="id">
+          <label for="lv-occasional">Table, Occasional</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        
+        <div class="field"><span class="input"> [number lv-tv-stand id:lv-tv-stand class:verySmall] </span><span class="id">
+          <label for="lv-tv-stand">TV Stand</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+</div>
+  <div class="group-t1 rooms">
+        <h3 class="test" data-toggle="collapse" data-target="#Kitchen">Kitchen and Dining Room</h3>
+  <div class="images" data-toggle="collapse" data-target="#Kitchen"><div class="imgcont"><img src="http://visualscope.org/development/northshore/wp-content/uploads/2017/01/kitchen.png"/></div></div>
+<div class="icon collapsed" data-toggle="collapse" data-target="#Kitchen">
+        <div class="hididng"><i class="fa fa-angle-down" aria-hidden="true"></i></div>
+ </div>
+<div id="Kitchen" class="collapse">
+    <div class="interior">
+      <div class="cols col-1">
+        <div class="field"><span class="input"> [number kt-bakers-rack id:kt-bakers-rack class:verySmall] </span><span class="id">
+          <label for="kt-bakers-rack">Bakers Rack</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number kt-buffet id:kt-buffet class:verySmall] </span><span class="id">
+          <label for="kt-buffet">Buffet</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        
+        <div class="field"><span class="input"> [number kt-chair-dining id:kt-chair-dining class:verySmall] </span><span class="id">
+          <label for="kt-chair-dining">Chair, Dining</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number kt-china-cab-regular id:kt-china-cab-regular class:verySmall] </span><span class="id">
+          <label for="kt-china-cab-regular">China Cabinet, Regular</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+      </div>
+      <div class="cols col-2">
+        
+        
+        <div class="field"><span class="input"> [number kt-china-cab-large id:kt-china-cab-large class:verySmall] </span><span class="id">
+          <label for="kt-china-cab-large">China Cabinet, Large</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number kt-hutch id:kt-hutch class:verySmall] </span><span class="id">
+          <label for="kt-hutch">Hutch</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number kt-microwave-cart id:kt-microwave-cart class:verySmall] </span><span class="id">
+          <label for="kt-microwave-cart">Microwave Cart</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number kt-server id:kt-server class:verySmall] </span><span class="id">
+          <label for="kt-server">Server</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+      </div>
+      <div class="cols col-3">
+        
+        <div class="field"><span class="input"> [number kt-stool-bar id:kt-stool-bar class:verySmall] </span><span class="id">
+          <label for="kt-stool-bar">Stool, Bar</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number kt-table-bar id:kt-table-bar class:verySmall] </span><span class="id">
+          <label for="kt-table-bar">Table, Bar</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        
+        <div class="field"><span class="input"> [number kt-table-kitchen id:kt-table-kitchen class:verySmall] </span><span class="id">
+          <label for="kt-table-kitchen">Table, Kitchen (seats 4)</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number kt-table-dining id:kt-table-dining class:verySmall] </span><span class="id">
+          <label for="kt-table-dining">Table, Dining (seats 6)</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+      </div>
+      <div class="cols col-4">
+        
+        <div class="field"><span class="input"> [number kt-dropleaf id:kt-dropleaf class:verySmall] </span><span class="id">
+          <label for="kt-dropleaf">Table, Dropleaf</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number kt-water-cooler id:kt-water-cooler class:verySmall] </span><span class="id">
+          <label for="kt-water-cooler">Water Cooler</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number kt-wine-rack id:kt-wine-rack class:verySmall] </span><span class="id">
+          <label for="kt-wine-rack">Wine Rack</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+ </div>
+  <div class="group-t1 rooms">
+<h3 class="test" data-toggle="collapse" data-target="#Bedroom">Bedroom</h3>
+  <div class="images" data-toggle="collapse" data-target="#Bedroom"><div class="imgcont"><img src="http://visualscope.org/development/northshore/wp-content/uploads/2017/01/bedroom.png"/></div></div>
+<div class="icon collapsed" data-toggle="collapse" data-target="#Bedroom">
+        <div class="hididng"><i class="fa fa-angle-down" aria-hidden="true"></i></div>
+ </div>
+<div id="Bedroom" class="collapse">
+    <div class="interior">
+      <div class="cols col-1">
+        
+        <div class="field"><span class="input"> [number bd-armoire-regular id:bd-armoire-regular class:verySmall] </span><span class="id">
+          <label for="bd-armoire-regular">Armoire, Regular</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        
+        <div class="field"><span class="input"> [number bd-bed-single id:bd-bed-single class:verySmall] </span><span class="id">
+          <label for="bd-bed-single">Bed, Single</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number bd-bed-double-twin id:bd-bed-double-twin class:verySmall] </span><span class="id">
+          <label for="bd-bed-double-twin">Bed, Double/Twin</label>
+          </span>
+          <div class="clear"></div>
+
+        </div>
+        <div class="field"><span class="input"> [number bd-bed-full id:bd-bed-full class:verySmall] </span><span class="id">
+          <label for="bd-bed-full">Bed, Full </label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number bd-bed-queen id:bd-bed-queen class:verySmall] </span><span class="id">
+          <label for="bd-bed-queen">Bed, Queen</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+      </div>
+      <div class="cols col-2">
+        
+        <div class="field"><span class="input"> [number bd-bed-king id:bd-bed-king class:verySmall] </span><span class="id">
+          <label for="bd-bed-king">Bed, King</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number bd-bed-bunk id:bd-bed-bunk class:verySmall] </span><span class="id">
+          <label for="bd-bed-bunk">Bunk Bed </label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number bd-chest-trunk id:bd-chest-trunk class:verySmall] </span><span class="id">
+          <label for="bd-chest-trunk">Chest/Trunk</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+
+
+        <div class="field"><span class="input"> [number bd-chest-drawers id:bd-chest-drawers class:verySmall] </span><span class="id">
+          <label for="bd-chest-drawers">Chest of Drawers</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number bd-dresser-single id:bd-dresser-single class:verySmall] </span><span class="id">
+          <label for="bd-dresser-single">Dresser, Single</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+      </div>
+      <div class="cols col-3">
+        
+        <div class="field"><span class="input"> [number bd-dresser-double id:bd-dresser-double class:verySmall] </span><span class="id">
+          <label for="bd-dresser-double">Dresser, Double</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        
+        <div class="field"><span class="input"> [number bd-footboard id:bd-footboard class:verySmall] </span><span class="id">
+          <label for="bd-footboard">Footboard</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number bd-headboard id:bd-headboard class:verySmall] </span><span class="id">
+          <label for="bd-headboard">Headboard</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number bd-jewelry-chest id:bd-jewelry-chest class:verySmall] </span><span class="id">
+          <label for="bd-jewelry-chest">Jewelry Chest</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number bd-lingerie-chest id:bd-lingerie-chest class:verySmall] </span><span class="id">
+          <label for="bd-lingerie-chest">Lingerie Chest</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+      </div>
+      <div class="cols col-4">
+        
+        <div class="field"><span class="input"> [number bd-night-stand id:bd-night-stand class:verySmall] </span><span class="id">
+          <label for="bd-night-stand">Night Stand</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number bd-shoe-rack id:bd-shoe-rack class:verySmall] </span><span class="id">
+          <label for="bd-shoe-rack">Shoe Rack</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number bd-vanity-bench id:bd-vanity-bench class:verySmall] </span><span class="id">
+          <label for="bd-vanity-bench">Vanity Bench</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number bd-vanity-table id:bd-vanity-table class:verySmall] </span><span class="id">
+          <label for="bd-vanity-table">Vanity Table</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number bd-wardrobe-closet id:bd-wardrobe-closet class:verySmall] </span><span class="id">
+          <label for="bd-wardrobe-closet">Wardrobe Closet</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+      </div>
+      <div class="cols col-5"></div>
+      <div class="clear"></div>
+    </div>
+
+  </div>
+  </div>
+  <div class="group-t1 rooms">
+<h3 class="test" data-toggle="collapse" data-target="#Nursery">Nursery</h3>
+    <div class="images" data-toggle="collapse" data-target="#Nursery"><div class="imgcont"><img src="http://visualscope.org/development/northshore/wp-content/uploads/2017/01/nursery.png"/></div></div>
+<div class="icon collapsed" data-toggle="collapse" data-target="#Nursery">
+        <div class="hididng"><i class="fa fa-angle-down" aria-hidden="true"></i></div>
+ </div>
+<div id="Nursery" class="collapse">
+    <div class="interior">
+      <div class="cols col-1">
+        <div class="field"><span class="input"> [number ns-baby-crib id:ns-baby-crib class:verySmall] </span><span class="id">
+          <label for="ns-baby-crib">Baby Crib</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number ns-baby-swing id:ns-baby-swing class:verySmall] </span><span class="id">
+          <label for="ns-baby-swing">Baby Swing</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number ns-bassinette id:ns-bassinette class:verySmall] </span><span class="id">
+          <label for="ns-bassinette">Bassinette</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+      </div>
+      <div class="cols col-2">
+        <div class="field"><span class="input"> [number ns-bed-youth id:ns-bed-youth class:verySmall] </span><span class="id">
+          <label for="ns-bed-youth">Bed, Youth</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number ns-changing-table id:ns-changing-table class:verySmall] </span><span class="id">
+          <label for="ns-changing-table">Changing Table</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number ns-child-chair id:ns-child-chair class:verySmall] </span><span class="id">
+          <label for="ns-child-chair">Child's Chair</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+      </div>
+      <div class="cols col-3">
+        <div class="field"><span class="input"> [number ns-child-table id:ns-child-table class:verySmall] </span><span class="id">
+          <label for="ns-child-table">Child's Table</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number ns-large-toys id:ns-large-toys class:verySmall] </span><span class="id">
+          <label for="ns-large-toys">Large Toys</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number ns-playpen id:ns-playpen class:verySmall] </span><span class="id">
+          <label for="ns-playpen">Playpen</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+      </div>
+      <div class="cols col-4">
+        <div class="field"><span class="input"> [number ns-stroller id:ns-stroller class:verySmall] </span><span class="id">
+          <label for="ns-stroller">Stroller</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number ns-toy-chest id:ns-toy-chest class:verySmall] </span><span class="id">
+          <label for="ns-toy-chest">Toy Chest</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+  </div>
+  <div class="group-t1 rooms">
+<h3 class="test" data-toggle="collapse" data-target="#Office">Office</h3>
+    <div class="images" data-toggle="collapse" data-target="#Office"><div class="imgcont"><img src="http://visualscope.org/development/northshore/wp-content/uploads/2017/01/office.png"/></div></div>
+<div class="icon collapsed" data-toggle="collapse" data-target="#Office">
+        <div class="hididng"><i class="fa fa-angle-down" aria-hidden="true"></i></div>
+ </div>
+<div id="Office" class="collapse">
+    <div class="interior">
+      <div class="cols col-1">
+        <div class="field"><span class="input"> [number of-bookcase-small id:of-bookcase-small class:verySmall] </span><span class="id">
+          <label for="of-bookcase-small">Bookcase, Small</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number of-bookcase-regular id:of-bookcase-regular class:verySmall] </span><span class="id">
+          <label for="of-bookcase-regular">Bookcase, Regular</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number of-bookcase-large id:of-bookcase-large class:verySmall] </span><span class="id">
+          <label for="of-bookcase-large">Bookcase, Large</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number of-computer id:ns-stroller class:verySmall] </span><span class="id">
+          <label for="of-computer">Computer</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+      </div>
+      <div class="cols col-2">
+        
+        <div class="field"><span class="input"> [number of-desk-small id:of-desk-small class:verySmall] </span><span class="id">
+          <label for="of-desk-small">Desk, Small</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number of-desk-computer id:of-desk-computer class:verySmall] </span><span class="id">
+          <label for="of-desk-computer">Desk, Computer</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number of-desk-executive id:of-desk-executive class:verySmall] </span><span class="id">
+          <label for="of-desk-executive">Desk, Executive</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number of-desk-secretary id:of-desk-secretary class:verySmall] </span><span class="id">
+          <label for="of-desk-secretary">Desk, Secretary</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+      </div>
+      <div class="cols col-3">
+        
+        <div class="field"><span class="input"> [number of-desk--hutch id:of-desk--hutch class:verySmall] </span><span class="id">
+          <label for="of-desk--hutch">Desk + Hutch</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number of-filing-cab-small id:of-filing-cab-small class:verySmall] </span><span class="id">
+          <label for="of-filing-cab-small">Filing Cabinet, Small</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number of-filing-cab-large id:of-filing-cab-large class:verySmall] </span><span class="id">
+          <label for="of-filing-cab-large">Filing Cabinet, Large</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number of-chair-desk id:of-chair-desk class:verySmall] </span><span class="id">
+          <label for="of-chair-desk">Chair, Desk</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+      </div>
+      <div class="cols col-4">
+        
+        <div class="field"><span class="input"> [number of-printer id:of-printer class:verySmall] </span><span class="id">
+          <label for="of-printer">Printer</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number of-table-drafting id:of-table-drafting class:verySmall] </span><span class="id">
+          <label for="of-table-drafting">Table, Drafting</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number of-table-printer id:of-table-printer class:verySmall] </span><span class="id">
+          <label for="of-table-printer">Table, Printer</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+      </div>
+      <div class="cols col-5"></div>
+      <div class="clear"></div>
+    </div>
+  </div>
+  </div>
+  <div class="group-t1 rooms">
+<h3 class="test" data-toggle="collapse" data-target="#Electronics">Electronics and Appliances</h3>
+    <div class="images" data-toggle="collapse" data-target="#Electronics"><div class="imgcont"><img src="http://visualscope.org/development/northshore/wp-content/uploads/2017/01/electronics.png"/></div></div>
+<div class="icon collapsed" data-toggle="collapse" data-target="#Electronics">
+        <div class="hididng"><i class="fa fa-angle-down" aria-hidden="true"></i></div>
+ </div>
+<div id="Electronics" class="collapse">
+    <div class="interior">
+      <div class="cols col-1">
+        
+        <div class="field"><span class="input"> [number ap-a-c-large id:ap-a-c-large class:verySmall] </span><span class="id">
+          <label for="ap-a-c-large">A/C, Large</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number ap-dryer id:ap-dryer class:verySmall] </span><span class="id">
+          <label for="ap-dryer">Dryer</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        
+        <div class="field"><span class="input"> [number ap-freezer-regular id:ap-freezer-regular class:verySmall] </span><span class="id">
+          <label for="ap-freezer-regular">Freezer, Regular</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number ap-microwave id:ap-microwave class:verySmall] </span><span class="id">
+          <label for="ap-microwave">Microwave</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+      </div>
+      <div class="cols col-2">
+        
+        
+        <div class="field"><span class="input"> [number ap-oven id:ap-oven class:verySmall] </span><span class="id">
+          <label for="ap-oven">Oven </label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number ap-ref-mini id:ap-ref-mini class:verySmall] </span><span class="id">
+          <label for="ap-ref-mini">Refrigerator, Mini </label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number ap-ref-medium id:ap-ref-medium class:verySmall] </span><span class="id">
+          <label for="ap-ref-medium">Refrigerator, Medium</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number ap-ref-side-by-side id:ap-ref-side-by-side class:verySmall] </span><span class="id">
+          <label for="ap-ref-side-by-side">Refrigerator, Side by Side</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+      </div>
+      <div class="cols col-3">
+        
+        <div class="field"><span class="input"> [number ap-stereo id:ap-stereo class:verySmall] </span><span class="id">
+          <label for="ap-stereo">Stereo</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number ap-tv-portable id:ap-tv-portable class:verySmall] </span><span class="id">
+          <label for="ap-tv-portable">TV, Portable</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number ap-tv-21-27 id:ap-tv-21-27 class:verySmall] </span><span class="id">
+          <label for="ap-tv-21-27">TV, 21"-27"</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number ap-tv-28-36 id:ap-tv-28-36 class:verySmall] </span><span class="id">
+          <label for="ap-tv-28-36">TV, 28"-36"</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+      </div>
+      <div class="cols col-4">
+        
+        
+        <div class="field"><span class="input"> [number ap-tv-flat-42 id:ap-tv-flat-42 class:verySmall] </span><span class="id">
+          <label for="ap-tv-flat-42">TV, Flat Screen up to 42</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        
+        <div class="field"><span class="input"> [number ap-washing-machine id:ap-washing-machine class:verySmall] </span><span class="id">
+          <label for="ap-washing-machine">Washing Machine</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+      </div>
+      <div class="cols col-5"></div>
+      <div class="clear"></div>
+    </div>
+  </div>
+  </div>
+  <div class="group-t1 rooms">
+<h3 class="test" data-toggle="collapse" data-target="#Patio">Patio and Outdoors</h3>
+    <div class="images" data-toggle="collapse" data-target="#Patio"><div class="imgcont"><img src="http://visualscope.org/development/northshore/wp-content/uploads/2017/01/patio.png"/></div></div>
+<div class="icon collapsed" data-toggle="collapse" data-target="#Patio">
+        <div class="hididng"><i class="fa fa-angle-down" aria-hidden="true"></i></div>
+ </div>
+<div id="Patio" class="collapse">
+    <div class="interior">
+      <div class="cols col-1">
+        
+        <div class="field"><span class="input"> [number pa-bbq-grill-medium id:pa-bbq-grill-medium class:verySmall] </span><span class="id">
+          <label for="pa-bbq-grill-medium">BBQ Grill, Medium </label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        
+        <div class="field"><span class="input"> [number pa-bench-outdoor id:pa-bench-outdoor class:verySmall] </span><span class="id">
+          <label for="pa-bench-outdoor">Bench, Outdoor</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        
+        <div class="field"><span class="input"> [number pa-chair-patio id:pa-chair-patio class:verySmall] </span><span class="id">
+          <label for="pa-chair-patio">Chair, Patio</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+      </div>
+      <div class="cols col-2">
+        <div class="field"><span class="input"> [number pa-chair-plastic id:pa-chair-plastic class:verySmall] </span><span class="id">
+          <label for="pa-chair-plastic">Chair, Plastic </label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number pa-garden-hose-tools id:pa-garden-hose-tools class:verySmall] </span><span class="id">
+          <label for="pa-garden-hose-tools">Garden Hose &amp; Tools </label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number pa-glider-swing id:pa-glider-swing class:verySmall] </span><span class="id">
+          <label for="pa-glider-swing">Glider/Swing</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        
+        
+        
+      </div>
+      <div class="cols col-3">
+      <div class="field"><span class="input"> [number pa-lawn-mower-push id:pa-lawn-mower-push class:verySmall] </span><span class="id">
+          <label for="pa-lawn-mower-push">Lawn Mower, Push </label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number pa-leaf-blower id:pa-leaf-blower class:verySmall] </span><span class="id">
+          <label for="pa-leaf-blower">Leaf Blower</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number pa-outdoor-child-gym id:pa-outdoor-child-gym class:verySmall] </span><span class="id">
+          <label for="pa-outdoor-child-gym">Outdoor Child Gym</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        
+        
+        
+        
+      </div>
+      <div class="cols col-4">
+      <div class="field"><span class="input"> [number pa-patio-table-regular id:pa-patio-table-regular class:verySmall] </span><span class="id">
+          <label for="pa-patio-table-regular">Patio Table, Regular</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number pa-umbrella id:pa-umbrella class:verySmall] </span><span class="id">
+          <label for="pa-umbrella">Umbrella</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        
+        <div class="field"><span class="input"> [number pa-wheelbarrow id:pa-wheelbarrow class:verySmall] </span><span class="id">
+          <label for="pa-wheelbarrow">Wheelbarrow</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+  </div>
+  <div class="group-t1 rooms">
+<h3 class="test" data-toggle="collapse" data-target="#Miscellaneous">Miscellaneous</h3>
+    <div class="images" data-toggle="collapse" data-target="#Miscellaneous"><div class="imgcont"><img src="http://visualscope.org/development/northshore/wp-content/uploads/2017/01/miscell.png"/></div></div>
+<div class="icon collapsed" data-toggle="collapse" data-target="#Miscellaneous">
+        <div class="hididng"><i class="fa fa-angle-down" aria-hidden="true"></i></div>
+ </div>
+<div id="Miscellaneous" class="collapse">
+    <div class="interior">
+      <div class="cols col-1">
+        
+        <div class="field"><span class="input"> [number ms-bench-work id:ms-bench-work class:verySmall] </span><span class="id">
+          <label for="ms-bench-work">Bench, Work</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number ms-bicycle id:ms-bicycle class:verySmall] </span><span class="id">
+          <label for="ms-bicycle">Bicycle</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number ms-bicycle-kids id:ms-bicycle-kids class:verySmall] </span><span class="id">
+          <label for="ms-bicycle-kids">Bicycle, Kids</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number ms-exercise-equipment id:ms-exercise-equipment class:verySmall] </span><span class="id">
+          <label for="ms-exercise-equipment">Exercise Equipment</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        
+        <div class="field"><span class="input"> [number ms-cab-utility id:ms-cab-utility class:verySmall] </span><span class="id">
+          <label for="ms-cab-utility">Cabinet, Utility</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number ms-chair-folding id:ms-chair-folding class:verySmall] </span><span class="id">
+          <label for="ms-chair-folding">Chair, Folding</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        
+        <div class="field"><span class="input"> [number ms-free-weights id:ms-free-weights class:verySmall] </span><span class="id">
+          <label for="ms-free-weights">Free Weights</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number ms-golf-clubs id:ms-golf-clubs class:verySmall] </span><span class="id">
+          <label for="ms-golf-clubs">Golf Clubs</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+      </div>
+      <div class="cols col-2">
+        <div class="field"><span class="input"> [number ms-ms-guitar id:ms-ms-guitar class:verySmall] </span><span class="id">
+          <label for="ms-ms-guitar">Guitar</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number ms-hamper id:ms-hamper class:verySmall] </span><span class="id">
+          <label for="ms-hamper">Hamper</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number ms-ironing-board id:ms-ironing-board class:verySmall] </span><span class="id">
+          <label for="ms-ironing-board">Ironing Board</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number ms-keyboard id:ms-keyboard class:verySmall] </span><span class="id">
+          <label for="ms-keyboard">Keyboard</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number ms-ladder id:ms-ladder class:verySmall] </span><span class="id">
+          <label for="ms-ladder">Ladder</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        
+        <div class="field"><span class="input"> [number ms-lamp-floor id:ms-lamp-floor class:verySmall] </span><span class="id">
+          <label for="ms-lamp-floor">Lamp, Floor</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number ms-lamp-table id:ms-lamp-table class:verySmall] </span><span class="id">
+          <label for="ms-lamp-table">Lamp, Table</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        
+        <div class="field"><span class="input"> [number ms-mirror-large id:ms-mirror-large class:verySmall] </span><span class="id">
+          <label for="ms-mirror-large">Mirror, Large</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        
+      </div>
+      <div class="cols col-3">
+        <div class="field"><span class="input"> [number ms-picture-large id:ms-picture-large class:verySmall] </span><span class="id">
+          <label for="ms-picture-large">Picture, Large</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number ms-plant-large id:ms-plant-large class:verySmall] </span><span class="id">
+          <label for="ms-plant-large">Plant, Large</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number ms-plant-stand id:ms-plant-stand class:verySmall] </span><span class="id">
+          <label for="ms-plant-stand">Plant Stand</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        
+        <div class="field"><span class="input"> [number ms-rug-small id:ms-rug-small class:verySmall] </span><span class="id">
+          <label for="ms-rug-small">Rug, Small</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number ms-rug-large id:ms-rug-large class:verySmall] </span><span class="id">
+          <label for="ms-rug-large">Rug, Large</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        
+        <div class="field"><span class="input"> [number ms-sculpture-large id:ms-sculpture-large class:verySmall] </span><span class="id">
+          <label for="ms-sculpture-large">Sculpture, Large</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number ms-sewing-machine-cab id:ms-sewing-machine-cab class:verySmall] </span><span class="id">
+          <label for="ms-sewing-machine-cab">Sewing Machine Cabinet</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number ms-shelving-unit id:ms-shelving-unit class:verySmall] </span><span class="id">
+          <label for="ms-shelving-unit">Shelving Unit</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        
+      </div>
+      <div class="cols col-4">
+      <div class="field"><span class="input"> [number ms-table-folding id:ms-table-folding class:verySmall] </span><span class="id">
+          <label for="ms-table-folding">Table, Folding</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number ms-table-small id:ms-table-small class:verySmall] </span><span class="id">
+          <label for="ms-table-small">Table, Small</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number ms-table-large id:ms-table-large class:verySmall] </span><span class="id">
+          <label for="ms-table-large">Table, Large</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number ms-table-work id:ms-table-work class:verySmall] </span><span class="id">
+          <label for="ms-table-work">Table, Work</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        
+        <div class="field"><span class="input"> [number ms-tool-chest-medium id:ms-tool-chest-medium class:verySmall] </span><span class="id">
+          <label for="ms-tool-chest-medium">Tool Chest, Medium</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number ms-tool-chest-large id:ms-tool-chest-large class:verySmall] </span><span class="id">
+          <label for="ms-tool-chest-large">Tool Chest, Large</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number ms-trash-can id:ms-trash-can class:verySmall] </span><span class="id">
+          <label for="ms-trash-can">Trash Can</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number ms-treadmill id:ms-treadmill class:verySmall] </span><span class="id">
+          <label for="ms-treadmill">Treadmill/Elliptical Machine</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+  </div>
+  <div class="group-t1 rooms">
+<h3 class="test" data-toggle="collapse" data-target="#Boxes">Boxes and Containers</h3>
+  <div class="images" data-toggle="collapse" data-target="#Boxes"><div class="imgcont"><img src="http://visualscope.org/development/northshore/wp-content/uploads/2017/01/boxes.png"/></div></div>
+<div class="icon collapsed" data-toggle="collapse" data-target="#Boxes">
+        <div class="hididng"><i class="fa fa-angle-down" aria-hidden="true"></i></div>
+ </div>
+<div id="Boxes" class="collapse">
+    <div class="interior">
+      <div class="cols col-1">
+        <div class="field"><span class="input"> [number co-box-book id:co-box-book class:verySmall] </span><span class="id">
+          <label for="co-box-book">Box, Book</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number co-box-file id:co-box-file class:verySmall] </span><span class="id">
+          <label for="co-box-file">Box, File</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number co-box-small id:co-box-small class:verySmall] </span><span class="id">
+          <label for="co-box-small">Box, Small</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number co-box-medium id:co-box-medium class:verySmall] </span><span class="id">
+          <label for="co-box-medium">Box, Medium</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+      </div>
+      <div class="cols col-2">
+        <div class="field"><span class="input"> [number co-box-large id:co-box-large class:verySmall] </span><span class="id">
+          <label for="co-box-large">Box, Large</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number co-box-dish-pack id:co-box-dish-pack class:verySmall] </span><span class="id">
+          <label for="co-box-dish-pack">Box, Dish Pack</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number co-box-picture id:co-box-picture class:verySmall] </span><span class="id">
+          <label for="co-box-picture">Box, Picture</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number co-box-wardrobe id:co-box-wardrobe class:verySmall] </span><span class="id">
+          <label for="co-box-wardrobe">Box, Wardrobe</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+      </div>
+      <div class="cols col-3">
+        <div class="field"><span class="input"> [number co-bags id:co-bags class:verySmall] </span><span class="id">
+          <label for="co-bags">Bags</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number co-bin-small id:co-bin-small class:verySmall] </span><span class="id">
+          <label for="co-bin-small">Plastic Bin, Small</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number co-bin-medium id:co-bin-medium class:verySmall] </span><span class="id">
+          <label for="co-bin-medium">Plastic Bin, Medium</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number co-bin-large id:co-bin-large class:verySmall] </span><span class="id">
+          <label for="co-bin-large">Plastic Bin, Large</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+      </div>
+      <div class="cols col-4">
+        <div class="field"><span class="input"> [number co-drawer-set id:co-drawer-set class:verySmall] </span><span class="id">
+          <label for="co-drawer-set">Plastic Drawer Set</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number co-suitcase-small id:co-suitcase-small class:verySmall] </span><span class="id">
+          <label for="co-suitcase-small">Suitcase, Small</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+        <div class="field"><span class="input"> [number co-suitcase-large id:co-suitcase-large class:verySmall] </span><span class="id">
+          <label for="co-suitcase-large">Suitcase, Large</label>
+          </span>
+          <div class="clear"></div>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+</div>
+  <div class="group-t1 add-info">
+  
+  <div class="images out" data-toggle="collapse" data-target="#additional"><div class="imgcont without-con">  <h3 class="test" data-toggle="collapse" data-target="#additional">Additional Information</h3></div></div>
+<div class="icon collapsed" data-toggle="collapse" data-target="#additional">
+        <div class="hididng"><i class="fa fa-angle-down" aria-hidden="true"></i></div>
+ </div> 
+<div id="additional" class="collapse">
+    <div class="interior">
+      <div class="field"><span class="id">
+        <label for="ai-est-boxes">Estimated number of boxes to be moved</label>
+        </span><span class="input"> [number ai-est-boxes id:ai-est-boxes class:verySmall] </span>
+
+        <div class="clear"></div>
+      </div>
+      <div class="colwrap">
+        <div class="cols col-1">
+          <div class="field"><span class="id">
+            <label for="ai-extraordinary"  class="extraL">Items of Extraordinary Value</label>
+            </span><span class="input"> [textarea ai-extraordinary 51x7 id:ai-extraordinary] </span>
+            <div class="clear"></div>
+          </div>
+        </div>
+        <div class="cols col-2">
+          <div class="field"><span class="id">
+            <label for="ai-comments"  class="extraL">Additional Comments</label>
+            </span><span class="input"> [textarea ai-comments 51x7 id:ai-comments] </span>
+            <div class="clear"></div>
+          </div>
+        </div>
+        <div class="clear"></div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="row padtop buttons"> [submit id:submitBtn3 class:sendBtn "Submit"] </div>
+</div>
